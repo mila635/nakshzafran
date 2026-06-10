@@ -1,0 +1,19 @@
+{
+  "name": "naksh-zafran-website",
+  "version": "1.0.0",
+  "description": "Naksh Zafran Imperial Saffron Website",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "init-db": "node database/init.js"
+  },
+  "keywords": ["saffron", "ecommerce", "pakistan"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7",
+    "cors": "^2.8.5"
+  }
+}
