@@ -1,72 +1,58 @@
 # Naksh Zafran - Imperial Saffron Website
 
-A complete full-stack website for Naksh Zafran, featuring premium saffron products.
+A premium e-commerce website for Naksh Zafran, featuring Pakistan's finest saffron products.
 
 ## Project Structure
 
 ```
-Zafran Naksh/
-├── public/                # Frontend files
-│   ├── index.html         # Main HTML file
-│   ├── css/
-│   │   └── style.css      # All styles
-│   └── js/
-│       └── app.js         # All frontend logic
-├── backend/
-│   └── server.js          # Express.js backend server
-├── database/
-│   └── init.js            # Database initialization script
-├── package.json           # Project dependencies and scripts
-└── README.md              # This file
+naksh-zafran/
+├── src/
+│   ├── components/      # React components
+│   ├── pages/          # Page components
+│   ├── data/           # Product data and constants
+│   ├── App.jsx         # Main app component
+│   ├── main.jsx        # Entry point
+│   └── index.css       # Global styles
+├── index.html          # HTML template
+├── vite.config.js      # Vite configuration
+├── package.json        # Dependencies
+└── README.md           # This file
 ```
 
 ## Setup Instructions
 
-### 1. Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Initialize the Database
+### Development
 
 ```bash
-npm run init-db
+npm run dev
 ```
 
-This will create `database/naksh-zafran.db` and populate it with sample products.
-
-### 3. Start the Server
+### Build for Production
 
 ```bash
-npm start
+npm run build
 ```
-
-The website will be available at `http://localhost:3000`
-
 
 ## Features
 
 - **Responsive Design**: Works on mobile, tablet, and desktop
 - **Product Catalog**: Browse all saffron products with filtering and search
-- **Shopping Cart**: Add items to cart
-- **Order Placement**: Submit orders via form or WhatsApp
+- **Shopping Cart**: Add items to cart with quantity management
+- **Order Placement**: Submit orders via WhatsApp or form
 - **Health Benefits**: Learn about saffron's health benefits
 - **Blog/Journal**: Read articles about saffron
 - **FAQ Section**: Answers to common questions
 - **Contact Page**: Get in touch with Naksh Zafran
-
-
-## API Endpoints
-
-- `GET /api/products` - Get all products
-- `GET /api/products/:id` - Get a single product by ID
-- `POST /api/orders` - Create a new order
-- `POST /api/newsletter` - Subscribe to newsletter
-
+- **Multi-language Support**: English, Urdu, Chinese
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: SQLite3
+- **Frontend**: React 18, Vite
+- **Styling**: CSS with custom properties
+- **Backend**: Supabase (available for data persistence)
