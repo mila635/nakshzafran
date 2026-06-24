@@ -6,7 +6,7 @@ export default function ProductDetail({ product, formatPrice, addToCart, openOrd
   if (!product) return null;
 
   return (
-    <div style={{ paddingTop: '88px' }}>
+    <div style={{ paddingTop: '130px' }}>
       <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '60px 32px 16px' }}>
         <button onClick={() => showPage('shop')} style={{ background: 'none', border: 'none', color: '#C6A75E', cursor: 'pointer', fontSize: '14px', marginBottom: '60px', display: 'flex', alignItems: 'center', gap: '8px' }}>
           ← Back to Shop

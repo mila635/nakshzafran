@@ -2,7 +2,7 @@ export default function BlogDetail({ post, showPage }) {
   if (!post) return null;
 
   return (
-    <div style={{ paddingTop: '88px' }}>
+    <div style={{ paddingTop: '130px' }}>
       <div style={{ maxWidth: '800px', margin: '0 auto', padding: '60px 24px 120px' }}>
         <button onClick={() => showPage('blog')} style={{ background: 'none', border: 'none', color: '#C6A75E', cursor: 'pointer', marginBottom: '60px', display: 'flex', alignItems: 'center', gap: '8px' }}>
           ← Back to Journal

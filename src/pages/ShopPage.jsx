@@ -36,7 +36,7 @@ export default function ShopPage({ products, formatPrice, showProduct, addToCart
           filter: 'brightness(0.35)',
         }} />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #0A0806 0%, transparent 50%)' }} />
-        <div style={{ position: 'relative', zIndex: 2, textAlign: 'center', padding: '0 24px', marginTop: '80px' }}>
+        <div style={{ position: 'relative', zIndex: 2, textAlign: 'center', padding: '0 24px', marginTop: '130px' }}>
           <p className="label">The Imperial Vault</p>
           <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(48px, 7vw, 90px)', color: '#fff', marginTop: '16px' }}>Our Collection</h1>
         </div>
